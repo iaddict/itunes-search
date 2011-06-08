@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{itunes-search}
-  s.version = "0.2.4"
+  s.version = "0.2.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["jeff durand"]
-  s.date = %q{2011-05-30}
+  s.date = %q{2011-06-08}
   s.description = %q{Pretty simple interface for the itunes search api will return results as array of results objects and offer reasonable accessor methods variables}
   s.email = %q{jeff.durand@gmail.com}
   s.extra_rdoc_files = [
@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = %q{http://github.com/johnnyiller/itunes-search}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.7.2}
+  s.rubygems_version = %q{1.6.0}
   s.summary = %q{Itunes Search}
 
   if s.respond_to? :specification_version then
